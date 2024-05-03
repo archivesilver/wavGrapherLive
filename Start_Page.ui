@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartPage</class>
+ <widget class="QMainWindow" name="StartPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>757</width>
+    <height>541</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Patient Selector</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>190</y>
+      <width>271</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 20pt &quot;Effra&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Please Select a Patient</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>240</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>280</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>757</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPatient">
+    <property name="title">
+     <string>Patient</string>
+    </property>
+    <addaction name="actionUser1"/>
+    <addaction name="actionUser2"/>
+    <addaction name="actionUser3"/>
+    <addaction name="actionUser4"/>
+   </widget>
+   <addaction name="menuPatient"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionUser1">
+   <property name="text">
+    <string>User1</string>
+   </property>
+  </action>
+  <action name="actionUser2">
+   <property name="text">
+    <string>User2</string>
+   </property>
+  </action>
+  <action name="actionUser3">
+   <property name="text">
+    <string>User3</string>
+   </property>
+  </action>
+  <action name="actionUser4">
+   <property name="text">
+    <string>User4</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
